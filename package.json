@@ -1,0 +1,30 @@
+{
+  "name": "koa-nodejs-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BuildMyDapp/koa-nodejs-learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BuildMyDapp/koa-nodejs-learning/issues"
+  },
+  "homepage": "https://github.com/BuildMyDapp/koa-nodejs-learning#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^10.1.1",
+    "nodemon": "^2.0.14"
+  }
+}
